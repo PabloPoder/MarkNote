@@ -1,0 +1,36 @@
+
+.noteAnchor:hover {
+  text-decoration: none;
+}
+
+.card {
+  width: auto;
+  height: auto;
+
+  padding: 1rem 2rem;
+  
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.434);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.256);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 {
+  margin: 0;
+}
+
+.tags p {
+  color: var(--code);
+  background-color: var(--background);
+  border-radius: 50px;
+  padding: 0px 8px;
+}
+
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px
+}

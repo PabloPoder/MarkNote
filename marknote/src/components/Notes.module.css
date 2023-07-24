@@ -1,0 +1,18 @@
+
+.noteList {
+  padding: 8px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  /* Crea 3 columnas de igual ancho */
+  gap: 8px;
+}
+
+.container li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
