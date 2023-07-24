@@ -32,7 +32,12 @@ export const useNotes = () => {
   }
 
   const addNewNote = () => {
-    const newNoteId = crypto.randomUUID()
+    // Surge -> crypto.uuid doesn't work
+    const timestamp = new Date().getTime().toString(16)
+    const random = Math.random().toString(16).substring(2)
+
+    const newNoteId = `${timestamp}-${random}`
+
     dispatch(createNote(newNoteId))
     return newNoteId
   }
