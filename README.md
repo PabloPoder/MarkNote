@@ -5,7 +5,7 @@ Aplicacion para tomar notas, soporta `Markdown`.
 Desarrollada con React ⚛️ y las librarias [React Router](https://reactrouter.com/en/main) y [Redux](https://redux.js.org)
 
 ## Visitar pagina 👀
-http://www.markdownplus.surge.sh
+[Mark Down Surge](http://www.markdownplus.surge.sh)
 
 ## Funcionalidades ⚡
 - Crear nota
