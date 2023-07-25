@@ -42,5 +42,16 @@ export const useNotes = () => {
     return newNoteId
   }
 
-  return { getNoteById, getTitle, updateNote, removeNote, addNewNote }
+  const getTags = () => {
+    const listOfTags: string[] = []
+    notes.forEach((note) => {
+      note.tags.forEach((tag) => {
+        if (listOfTags.includes(tag)) return
+        listOfTags.push(tag)
+      })
+    })
+    return listOfTags
+  }
+
+  return { notes, getNoteById, getTitle, updateNote, removeNote, addNewNote, getTags }
 }

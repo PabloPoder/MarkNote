@@ -1,14 +1,28 @@
+.actions div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .noteList {
   padding: 8px;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  /* Crea 3 columnas de igual ancho */
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
+} 
+
+.container > * {
+  flex: 1 1 33%;
 }
+
+/* .container {
+  columns: 2;
+  column-gap: 10px;
+} */
 
 .container li {
   list-style: none;

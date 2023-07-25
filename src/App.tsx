@@ -5,7 +5,7 @@ import { Outlet, useLocation } from 'react-router-dom'
 import { Footer } from './components/Footer.tsx'
 
 function App (): JSX.Element {
-  // Obtener ruta actual
+  // Get current location
   const location = useLocation()
 
   return (

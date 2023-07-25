@@ -33,7 +33,6 @@ export const notesSlice = createSlice({
         if (existingNote.id === id) {
           return { ...existingNote, text, tags }
         }
-        console.log(existingNote.text)
         return existingNote
       })
     },
