@@ -8,12 +8,13 @@ Desarrollada con React ⚛️ y las librarias [React Router](https://reactrouter
 [Mark Down Surge](http://www.markdownplus.surge.sh)
 
 ## Funcionalidades ⚡
-- Crear nota
-- Editar nota
-- Borrar nota
-- Etiquetar notas
-- Soportar formator markdown
-- Cambiar de edicion a modo previsualizacion
+- Crear nota ✍🏻
+- Editar nota 📝
+- Borrar nota 🗑️
+- Etiquetar notas 🏷️
+- Filtrar notas por etiquetas 🎛️
+- Soportar formator markdown 🎨
+- Cambiar de edicion a modo previsualizacion 👀
 
 ## Imagenes 📷
 ![image](https://github.com/PabloPoder/MarkNote/assets/50326883/bba05a55-3dd0-46b5-b5ea-c2bd8c82f045)
