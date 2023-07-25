@@ -1,27 +1,23 @@
-# React + TypeScript + Vite
+# MarkNote 📑
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicacion para tomar notas, soporta `Markdown`.
 
-Currently, two official plugins are available:
+Desarrollada con React ⚛️ y las librarias [React Router](https://reactrouter.com/en/main) y [Redux](https://redux.js.org)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visitar pagina 👀
+[Mark Down Surge](http://www.markdownplus.surge.sh)
 
-## Expanding the ESLint configuration
+## Funcionalidades ⚡
+- Crear nota
+- Editar nota
+- Borrar nota
+- Etiquetar notas
+- Soportar formator markdown
+- Cambiar de edicion a modo previsualizacion
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Imagenes 📷
+![image](https://github.com/PabloPoder/MarkNote/assets/50326883/bba05a55-3dd0-46b5-b5ea-c2bd8c82f045)
 
-- Configure the top-level `parserOptions` property like this:
+![image](https://github.com/PabloPoder/MarkNote/assets/50326883/24332dd5-ca1a-4955-bd4b-d32cd241e488)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image](https://github.com/PabloPoder/MarkNote/assets/50326883/a7d8bba6-4bd8-472b-849b-3abfb2d7ad19)
